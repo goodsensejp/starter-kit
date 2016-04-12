@@ -1,0 +1,16 @@
+{
+  "name": "Goodsense",
+  "description": "",
+  "scripts": {},
+  "env": {
+    "NODE_ENV": {
+      "required": true
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/nodejs"
+    }
+  ]
+}

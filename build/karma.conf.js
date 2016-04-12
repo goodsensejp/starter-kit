@@ -50,8 +50,7 @@ const karmaConfig = {
       'react/lib/ExecutionEnvironment': true,
       'react/lib/ReactContext': 'window',
       'text-encoding': 'window'
-    },
-    sassLoader: webpackConfig.sassLoader
+    }
   },
   webpackMiddleware: {
     noInfo: true
